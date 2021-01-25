@@ -4,6 +4,7 @@ public class MeatLoversPizzaBuilder extends PizzaBuilder {
 	public MeatLoversPizzaBuilder() {
 		this.name = "Meat Lovers Pizza";
 	}
+
 	public PizzaBuilder addCheese() {
 		// meat lovers like moz
 		this.toppings.add("mozzerella");

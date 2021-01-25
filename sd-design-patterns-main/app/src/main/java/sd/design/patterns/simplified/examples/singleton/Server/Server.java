@@ -6,8 +6,6 @@ public class Server {
 
     private static Singleton serverName;
 
-
-
     public static Singleton getInstance() {
         if (serverName == null) {
             serverName = new Singleton();
