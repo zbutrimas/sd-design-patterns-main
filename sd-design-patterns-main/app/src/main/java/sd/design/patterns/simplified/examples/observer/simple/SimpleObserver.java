@@ -15,6 +15,6 @@ public class SimpleObserver implements Observer {
 	}
 	
 	public void display() {
-		System.out.printf("Obsderver %s got value: %s", name,value);
+		System.out.printf("Obsderver %s got value: %s\n", name,value);
 	}
 }
